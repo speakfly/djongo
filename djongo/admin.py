@@ -3,7 +3,6 @@ import copy
 from django.contrib import admin
 from djongo.models import fields
 
-
 class ModelAdmin(admin.ModelAdmin):
     DJONGO_FIELDS = (
         fields.ArrayModelField,
